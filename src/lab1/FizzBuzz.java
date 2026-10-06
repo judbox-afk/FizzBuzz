@@ -43,7 +43,7 @@ class FizzBuzz {
     // private method, can only be called from within this class FizzBuzz
     // static means it belongs to the class itself, call by calling the the Class name, no need to create an object
     // int means it returns int, the string print out isn't a return
-    private static int doWhileFizzBuzz(int i) {
+    public static int doWhileFizzBuzz(int i) {
         // Finding out if it's divisible
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
